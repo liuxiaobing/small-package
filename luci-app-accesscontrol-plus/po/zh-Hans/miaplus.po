@@ -1,3 +1,13 @@
+msgid ""
+msgstr ""
+"openwrt/luciapplicationspasswall/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
 msgid "Internet Access Schedule Control"
 msgstr "上网时间控制"
 
