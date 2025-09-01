@@ -32,3 +32,9 @@ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftabl
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
 ```
+更新了docker服务器设置!
+
+```bash
+删除openwrt自带的docker服务器设置插件
+rm -rf feeds/luci/applications/luci-app-dockerman
+```
