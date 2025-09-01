@@ -1,9 +1,5 @@
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-
-msgid "Internet Access Schedule Control"
-msgstr "上网时间控制"
+msgid "Internet Access Schedule Control plus"
+msgstr "上网时间控制plus"
 
 msgid "Access Schedule Control Description"
 msgstr "设置客户端访问互联网的时间"
