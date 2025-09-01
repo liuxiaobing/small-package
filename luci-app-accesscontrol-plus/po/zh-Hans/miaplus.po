@@ -8,8 +8,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-msgid "Internet Access Schedule Control"
-msgstr "上网时间控制"
+msgid "Internet Access Schedule Control plus"
+msgstr "上网时间控制Plus"
 
 msgid "Access Schedule Control Description"
 msgstr "设置客户端访问互联网的时间"
