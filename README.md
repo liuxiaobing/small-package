@@ -37,4 +37,7 @@ git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/l
 ```bash
 删除openwrt自带的docker服务器设置插件
 rm -rf feeds/luci/applications/luci-app-dockerman
+
+./scripts/feeds update -a
+./scripts/feeds install -a
 ```
