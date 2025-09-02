@@ -43,7 +43,7 @@ rm -rf feeds/luci/applications/luci-app-dockerman
 ```
 如果编译openwrt时碰到这个问题了
 ```bash
-也是修改/home/你的用户名/openwrt/build_dir/target-x86_64_musl/host/rustc-1.xx.x-src/路径下面的Cargo.toml和config.toml，
+要修改/home/你的用户名/openwrt/build_dir/target-x86_64_musl/host/rustc-1.xx.x-src/路径下面的Cargo.toml和config.toml，
 
 Cargo.toml里面在第一行插入：
 
