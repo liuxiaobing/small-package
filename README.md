@@ -41,3 +41,22 @@ rm -rf feeds/luci/applications/luci-app-dockerman
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 ```
+```bash
+编译immortalwrt时也碰到这个问题了，
+也是修改/home/tony/immortalwrt/build_dir/target-x86_64_musl/host/rustc-1.xx.x-src/路径下面的Cargo.toml和config.toml，Cargo.toml里面在第一行插入：
+
+[source.crates-io]
+replace-with = 'mirror'
+
+[source.mirror]
+registry = "sparse+https://mirrors.bfsu.edu.cn/crates.io-index/"
+
+download-ci-llvm = false
+
+原来的行下移。
+
+修改config.toml:
+download-ci-llvm = true
+改成：
+download-ci-llvm = false
+```
