@@ -41,7 +41,7 @@ rm -rf feeds/luci/applications/luci-app-dockerman
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 ```
-编译immortalwrt时也碰到这个问题了
+如果编译openwrt时碰到这个问题了
 ```bash
 也是修改/home/tony/immortalwrt/build_dir/target-x86_64_musl/host/rustc-1.xx.x-src/路径下面的Cargo.toml和config.toml，Cargo.toml里面在第一行插入：
 
