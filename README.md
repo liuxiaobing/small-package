@@ -20,6 +20,10 @@
 
 ```bash
  sed -i '$a src-git smpackage https://github.com/liuxiaobing/small-package' feeds.conf.default
+
+./scripts/feeds update smpackage
+./scripts/feeds install -a -p smpackage
+
 ```
 对于强迫症的同学（有报错信息、或Lean源码编译出错的情况），请尝试删除冲突的插件
 
