@@ -32,15 +32,7 @@ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftabl
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
 ```
-更新了docker服务器设置!
 
-```bash
-删除openwrt自带的docker服务器设置插件
-rm -rf feeds/luci/applications/luci-app-dockerman
-
-./scripts/feeds update -a
-./scripts/feeds install -a
-```
 如果编译openwrt时碰到这个问题了
 ```bash
 要修改/home/你的用户名/openwrt/build_dir/target-x86_64_musl/host/rustc-1.xx.x-src/路径下面的Cargo.toml和config.toml，
